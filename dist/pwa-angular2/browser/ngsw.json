@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1731730044356,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-MTZANJ5C.js",
+        "/manifest.webmanifest",
+        "/polyfills-FFHMD2TL.js",
+        "/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/efe12b4a-be55-460d-81b3-8ea23408f8e2.jfif",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/000.png",
+        "/assets/img/360_F_77981059_4bySDu7qHXbK3ql6vKTdlRkP9hAToI2i.jpg",
+        "/assets/img/Aplicaciones móviles_ definición, para qué sirven, ejemplos y cómo desarrollar apps para dispositivos móviles.png",
+        "/assets/img/Blog-20.jpg",
+        "/assets/img/Ceasinci.png",
+        "/assets/img/Cómo ser desarrollador web.png",
+        "/assets/img/caracteristicas.jpg",
+        "/assets/img/contact.png",
+        "/assets/img/contactanos.png",
+        "/assets/img/definicion-servicios.jpg",
+        "/assets/img/descarga.jpeg",
+        "/assets/img/descarga.png",
+        "/assets/img/efe12b4a-be55-460d-81b3-8ea23408f8e2.jfif",
+        "/assets/img/servicios.png",
+        "/media/service1-K5D6LS5J.jpg",
+        "/media/service2-B6BFTXHM.jpg",
+        "/media/service3-IIDSDXSC.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/efe12b4a-be55-460d-81b3-8ea23408f8e2.jfif": "7414ac81f6742942cd1406d2992744c78b28e300",
+    "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/assets/img/000.png": "ee8be43cadd2fcad09dfa81e5a6f9c2502864ab6",
+    "/assets/img/360_F_77981059_4bySDu7qHXbK3ql6vKTdlRkP9hAToI2i.jpg": "bc7ccd20debdb0afbfb434858c0264c4c2d02c1e",
+    "/assets/img/Aplicaciones móviles_ definición, para qué sirven, ejemplos y cómo desarrollar apps para dispositivos móviles.png": "45cd87ec46d92692fd43e728d4640878d3543830",
+    "/assets/img/Blog-20.jpg": "a4e46c44cbf8c6b013bc2169f548e4f32d088144",
+    "/assets/img/Ceasinci.png": "01f313b7b47bd0d63377420f8241f714480a8f4c",
+    "/assets/img/Cómo ser desarrollador web.png": "1b41d25b7bbd6af805abf0e23238f52cbfba2fcc",
+    "/assets/img/caracteristicas.jpg": "766a21519f76d3ef7b374abefc3c4fcf1746e70b",
+    "/assets/img/contact.png": "fe4b35263b797fdc1c0bd5786e847ee0c7932372",
+    "/assets/img/contactanos.png": "c912c28779bf53950851ba83c5eee6bba4c72e8d",
+    "/assets/img/definicion-servicios.jpg": "f33aff9fd12eb75da06df80603838384db8d7586",
+    "/assets/img/descarga.jpeg": "b2446c79298c830e5069f0909b4e1f111c1d301f",
+    "/assets/img/descarga.png": "69ce2392dd2b90a68abad517d0ae167bf2000a94",
+    "/assets/img/efe12b4a-be55-460d-81b3-8ea23408f8e2.jfif": "7414ac81f6742942cd1406d2992744c78b28e300",
+    "/assets/img/servicios.png": "3082aea1b893a16b08a9ea873c2bedbf65d0fcac",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/index.html": "a9a10b1ef9be5149dc7f5cfcab35a7e997774947",
+    "/main-MTZANJ5C.js": "4843504b0a266c68171a21a78646595ef5f37dd9",
+    "/manifest.webmanifest": "ecafd1b45fe9dcb3af168bdfbcf33c1bca43274d",
+    "/media/service1-K5D6LS5J.jpg": "a97c9dbb7b1c6504f42ab6fd300a6a08dbaa254c",
+    "/media/service2-B6BFTXHM.jpg": "d21add73d6d5737dbd32076b9b53ef095a5dbfa6",
+    "/media/service3-IIDSDXSC.jpg": "88f3a8d483a38f92558c19acef6cd8a563e7bf55",
+    "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

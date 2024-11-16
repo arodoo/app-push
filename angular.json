@@ -3,11 +3,10 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app-push": {
+    "pwaAngular2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss",
           "standalone": false
         },
         "@schematics/angular:directive": {
@@ -24,20 +23,21 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/app-push",
+            "outputPath": "dist/pwa-angular2",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app-push:build:production"
+              "buildTarget": "pwaAngular2:build:production"
             },
             "development": {
-              "buildTarget": "app-push:build:development"
+              "buildTarget": "pwaAngular2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "app-push:build"
+            "buildTarget": "pwaAngular2:build"
           }
         },
         "test": {
@@ -97,13 +97,14 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -112,6 +113,6 @@
     }
   },
   "cli": {
-    "analytics": "a2242864-085b-4600-a819-63ef9c84f1e9"
+    "analytics": false
   }
 }
